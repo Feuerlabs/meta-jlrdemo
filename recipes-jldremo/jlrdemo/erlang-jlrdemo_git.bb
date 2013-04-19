@@ -21,7 +21,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=815ca599c9df247a0c7f619bab123dad"
 # Packages that this application need. Do not remove erlang since
 # the erlang runtime system and the Exosense Device modules are included
 # through this dependency.
-DEPENDS += " exosense"
+DEPENDS += " exosense erlang-lhttpc"
 
 # Source revision to fetch from the SRC_URI
 SRCREV="AUTOINC"
