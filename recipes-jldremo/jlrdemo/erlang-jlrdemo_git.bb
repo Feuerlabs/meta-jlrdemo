@@ -31,7 +31,7 @@ PR = "r0"
 
 # The URI to fetch the application source code from.
 # Replace this with an URI that refers to the applicaiton source code.
-SRC_URI = "git://github.com/Feuerlabs/jlrdemo.git;protocol=git;protocol=ssh;user=git"
+SRC_URI = "git://github.com/Feuerlabs/jlrdemo.git;protocol=git"
 
 # The sub directory under the build directory to check out the source code into.
 S = "${WORKDIR}/git"
